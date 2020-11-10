@@ -22,7 +22,7 @@ public class LoadingActivity extends AppCompatActivity {
         ImageView loadingView = findViewById(R.id.loading);
         Glide
                 .with(this)
-                .load(R.drawable.loading_dice)
+                .load(R.drawable.giphy)
                 .into(loadingView);
         loadAndRun();
     }
@@ -36,7 +36,7 @@ public class LoadingActivity extends AppCompatActivity {
                 }
                 finish();
             }
-        }, 4000);
+        }, 5000);
     }
 
     @Override

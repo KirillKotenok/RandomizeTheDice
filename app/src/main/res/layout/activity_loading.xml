@@ -6,13 +6,13 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#4A1714"
+        android:background="#f1f2f3"
         android:orientation="horizontal">
 
         <pl.droidsonroids.gif.GifImageView
             android:id="@+id/loading"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/loading_dice" />
+            android:src="@drawable/giphy" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
