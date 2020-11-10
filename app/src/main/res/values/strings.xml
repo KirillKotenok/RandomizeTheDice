@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RandomizeTheDice</string>
+    <string name="save_button_1">Save player 1</string>
+    <string name="save_button_2">Save player 2</string>
+    <string name="roll_button">ROLL DICE</string>
+    <string name="start_button">Start</string>
+    <string name="winner"> Winner is: %s</string>
+</resources>
