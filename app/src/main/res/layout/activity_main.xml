@@ -71,14 +71,25 @@
                 android:text="@string/save_button_2" />
         </LinearLayout>
 
-        <Button
+        <ImageButton
             android:id="@+id/start"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="30dp"
-            android:text="@string/start_button"
-            android:textSize="20sp" />
+            android:layout_marginTop="30dp"
+            android:background="@null"
+            android:src="@drawable/play_btn"/>
+
+        <ImageButton
+            android:id="@+id/privacy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:background="@null"
+            android:src="@drawable/privacy_red"/>
+
     </LinearLayout>
 
 </RelativeLayout>
