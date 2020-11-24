@@ -41,7 +41,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        Button recived = findViewById(v.getId());
+        View recived;
+        if (findViewById(v.getId()) instanceof Button){
+            recived = findViewById(v.getId());
+        }else {
+            recived = findViewById(v.getId());
+        }
+
         switch (recived.getResources().getResourceEntryName(recived.getId())) {
             case SAVE_FIRST_PLAYER:
                 if (first_player.getEditText().getText().toString()!=null &&
